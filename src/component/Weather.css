@@ -1,0 +1,152 @@
+.container--1{
+    max-width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(60deg, blue, red); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.big-box{
+    /* padding: 1rem 10rem 5rem 1rem; */
+    border: 2px solid black;
+    max-width: 40rem;
+    /* height: 45rem; */
+    margin: 0rem auto 0 auto; 
+    background: linear-gradient(60deg, rgb(158, 209, 243), rgb(250, 117, 117));
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgb(185, 185, 185);
+    transition: all 0.3s;
+}
+
+.text-bar{
+    width: 35rem;
+    height: 4rem;
+    border: none;
+    border: 1px solid black;
+    padding-left: 3px;
+    font-size: 3rem;
+    border-radius: 10px;
+    margin: 1rem 1rem 0rem 1rem
+    
+}
+::placeholder{
+    font-size: 2rem;
+}
+*:focus{
+    border: 2px solid rgb(187, 255, 0) ;
+    transition: all 0.9s ease-in-out;
+}
+
+.error{
+    text-align: center;
+    animation:fadeIn 4s ease-in-out 1s infinite;
+    /* name duration timingfunction delay iterationcount */
+}
+@keyframes fadeIn{
+    0%{
+        transform: translate(1rem , 0.5rem) scale(0.7);
+    }
+    50%{
+        transform: translate(1rem , 0.5rem) scale(1.2);
+    }
+    100%{
+        transform: translate(1rem , 0.5rem) scale(0.7);
+    }
+  }
+.search{
+    padding: 8px 8px;
+    border: none;
+    background: linear-gradient(45deg, red, yellow);
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
+
+.city-text{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+    align-self: center;
+}
+.main{
+    font-size: 2rem;
+}
+.describe{
+    font-size: 1.8rem;
+}
+.main, .describe{
+    font-weight: 600;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.weathers{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.circle{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.direction{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.both{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.3rem;
+}
+.max-min{
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.temp-box, .pressure-box{
+    /* height: 7rem;
+    width: 11rem; */
+    border: 1px solid black;
+}
+.temp-text, .pressure-text{
+    font-size: 2.3rem;
+}
+
+.country-text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.goHome{
+    padding: 0.5rem 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 20%;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+.goHome:hover{
+    background-color: greenyellow;
+    font-weight: 700;
+}

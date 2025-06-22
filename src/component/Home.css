@@ -1,0 +1,71 @@
+.bigger-box-home{
+    background-color: rgb(224, 222, 222 , 0.1);
+    box-shadow: 0 1rem 0.5rem grey;
+    padding: 3rem 8rem 4rem 8rem;
+    margin: 7rem auto 0 auto;
+    max-width: 57rem;
+
+    transition: all 0.7s ease-in-out;
+}
+
+.big-display{
+    width:10rem;
+    height:10rem;
+    border: none;
+    /* border: 1px solid black; */
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+
+.roll-pix{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 41%;
+    margin-top: 2rem;
+}
+
+.pix{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.small-box{
+    height:4rem;
+    width: 6rem;
+    background-color: inherit;
+    border: 1px solid black;
+    margin: 5rem auto 1rem auto;
+    border-radius: 20%;
+}
+
+.plus-btn{
+    border: none;
+    padding: 0.2rem 0.5rem;
+    background:linear-gradient(to bottom, green, yellow);
+    font-size: 3rem;
+    border-radius: 50%;
+    transform: translate(18rem);
+    cursor: pointer;
+}
+
+.minus-btn{
+    border: none;
+    padding: 0.2rem 0.9rem;
+    background:linear-gradient(to bottom, green, yellow);
+    font-size: 3rem;
+    border-radius: 50%;
+    transform: translate(22.5rem);
+    cursor: pointer;
+}
+
+.plus-btn:hover{
+    background:aqua;
+}
+.textNo{
+    font-size: 3rem;
+    text-align: center;
+}
