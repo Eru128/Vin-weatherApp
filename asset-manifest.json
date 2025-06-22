@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Vin-weatherApp/static/css/main.de6c55c0.css",
+    "main.js": "/Vin-weatherApp/static/js/main.dbcbac7a.js",
+    "index.html": "/Vin-weatherApp/index.html",
+    "main.de6c55c0.css.map": "/Vin-weatherApp/static/css/main.de6c55c0.css.map",
+    "main.dbcbac7a.js.map": "/Vin-weatherApp/static/js/main.dbcbac7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de6c55c0.css",
+    "static/js/main.dbcbac7a.js"
+  ]
+}
