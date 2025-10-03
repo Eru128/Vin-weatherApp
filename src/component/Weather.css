@@ -37,7 +37,8 @@
 }
 *:focus{
     border: 2px solid rgb(187, 255, 0) ;
-    transition: all 0.9s ease-in-out;
+    padding: 0.3rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .error{

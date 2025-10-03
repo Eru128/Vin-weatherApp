@@ -17,26 +17,22 @@ const navigate= useNavigate()
     const [errorMessage, setErrorMessage] = useState('')
     const [dataLoading, setDataLoading]    = useState(false)
     
-    const location= useNavigate();
-    
 
-
-    function goToHome(){
-        location('/')
-    }
-    function goToAbout(){
-        location('/about')
-    }
-
-    function goToCalc(){
-        location('/calc')
-    }
-
-    //const img= 'https://openweathermap.org/img/wn/10d@2x.png'
 
     function goHome(){
         navigate('/')
     }
+    
+    function goToAbout(){
+        navigate('/about')
+    }
+
+    function goToCalc(){
+        navigate('/calc')
+    }
+
+    //const img= 'https://openweathermap.org/img/wn/10d@2x.png'
+
     
     
     function inputNum(e){
@@ -98,16 +94,16 @@ const hPaToMmHg = (hPa) => (hPa * 0.75006).toFixed(2)
 
     return <> 
     <div className="headings">
-            <h2>Check Weather!</h2>
-            <nav>
-                <ul className="links">
-                    <li onClick={goToHome}>Weather</li>
-                    <li onClick={goToAbout}>GameZone</li>
-                    <li onClick={goToCalc}>Calculator</li>
-
-                </ul>
-            </nav>
+        <h1 className="weather-title">Weather Checker</h1>
+        <nav>
+            <ul className="links">
+                <li><button className="link" onClick={goHome}>Home</button></li>
+                <li><button className="link" onClick={goToAbout}>About</button></li>
+                <li><button className="link" onClick={goToCalc}>Calculator</button></li>
+            </ul>
+        </nav>
     </div>
+   
     <div className='container--1'>
         
         <div className='big-box'>
@@ -186,7 +182,6 @@ const hPaToMmHg = (hPa) => (hPa * 0.75006).toFixed(2)
 
         </div>
         
-        <button className='goHome' onClick={goHome}>Home</button>        
         <Footer />
 
     </div>

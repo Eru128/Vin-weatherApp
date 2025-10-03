@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -13,18 +13,12 @@ body {
 
 }
 
-.links{
-  cursor: pointer;
-}
-
 .container{
   max-width: 130rem;
 }
 
 .header {
-  /*background-color: #a6f513;*/
   background-image: linear-gradient(45deg,  #a6f513, red);
-  /* height: 5rem; */
   max-width: 100%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   display: flex;
@@ -63,7 +57,6 @@ body {
 background-color: rgb(224, 222, 222 , 0.1);
 box-shadow: 0 1rem 0.5rem grey;
 padding: 1rem 1rem 15rem 1rem;
-/* width: 50%; */
 margin: 5rem auto 0 auto;
 max-width: 50rem;
 height: 40rem;
@@ -71,11 +64,6 @@ height: 40rem;
 transition: all 0.2s ease-in;
 opacity: 0; 
 transform: scale(0.4); 
-
-  /* transition: all 0.9s ease-in-out;
-  opacity: 0;  Initially invisible
-  transform: scale(0.9); Initially smaller */
-
 }
 
 .show {
@@ -113,56 +101,9 @@ label{
 .box{
   margin-top: 3rem;
   padding: 0.4rem 0.3rem 2rem 0.2rem;
-  /* height:6rem;
-  width: 15rem; */
-  /* background-color: rgb(240, 240, 255); */
-  
-}
-.headings{
-  display: flex;
-  justify-content: space-between;
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
-ul{
-  padding-left: 1rem;
-  font-size: 1.3rem;
-  list-style:circle;
-
-}
-
-.links{
-  display: flex;
-  list-style: none;
-  gap:1.2rem;
   
 }
 
-/* button{
-    display: block;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    border:none;
-    border-radius: 15%;
-    border: 0.1rem solid black;
-
-} */
-
-.heading-content{
-  text-align: center;
-}
-
-/* .icon{
-stroke: #333;
-height: 2rem;
-background-color: none;
-
-} */
 
 @media(max-width:70.25em){
 
@@ -234,15 +175,7 @@ background-color: none;
   .bigbox{
     margin-top: 1.7rem ;
   }
-  /* button{
-    font-size: 1rem;
-    display: block;
-    margin-top: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-  } */
+
 
   .heading-content{
     text-align: center;
@@ -277,7 +210,6 @@ background-color: none;
   margin: 2rem auto 0 auto;
   border-radius: 5%;
   border:3px solid black;
-  /* overflow: scroll; */
 }
 
 .roll-btn,.hold-btn{
@@ -349,7 +281,6 @@ background-color: none;
   font-weight: 600;
   font-size: 1.4rem;
   transition: all 0.4s ease-in;
-  /* transform: scale(1.1); */
   cursor: pointer;
 }
 
@@ -415,4 +346,4 @@ background-color: none;
 .win-text{
   font-size: 2rem;
   font-weight: 700;
-}
+} */

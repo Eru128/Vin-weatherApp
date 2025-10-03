@@ -50,7 +50,7 @@ const Calc = () => {
 
     function equalTo(){
         try {
-            const openArray=currentNumber.join('').replaceAll(',','')
+            const openArray=currentNumber.join('').replaceAll(',' , '')
             
             const answer= evaluate(openArray)
             //const answer= evaluate(currentNumber)
