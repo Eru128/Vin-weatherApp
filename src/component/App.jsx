@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Calc from './Calc';
+import Timer from './Timer'
 
 function App() {
   return (<>
@@ -12,7 +13,7 @@ function App() {
         <Link to="/"></Link>  
         <Link to="/about"></Link>
         <Link to="/calc"></Link>
-        
+        <Link to= '/timer'></Link>
       </nav>
 
       <Routes>
@@ -20,7 +21,7 @@ function App() {
         <Route path="/" element ={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/calc" element={<Calc />} />
-        
+        <Route path="/timer" element={<Timer />} />
       </Routes>
     </Router>
     

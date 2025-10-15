@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=McLaren&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=McLaren&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&display=swap');
+.trial-general{
+    background-color: #230180;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.timer-title{
+    font-size: 8rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'poppins';
+    color: #fcfffc;
+    text-shadow: 0rem 0rem 1rem black;
+
+}
+
+.general-box{
+    height:50vh;
+    width:max-content;
+    margin: auto auto;
+    background-color: beige;
+    border-radius: 2rem;
+    box-shadow: 0rem 2rem 0.3rem gray;
+    padding: 0 2rem;
+    
+}
+.btnss{
+    display: flex;
+   justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.btn-1{
+    font-size: 8rem !important;
+    color: #230180;
+    cursor: pointer;
+
+}
+
+
+.btn-start:hover{
+color: #058001;
+}
+.btn-stop:hover{
+color: #ff0909;
+}
+.btn-refresh:hover{
+color: #807801;
+}
+.btn-home{
+    border-radius: 50%;
+    background-color: #230180;
+    color: whitesmoke;
+    font-size: 6rem !important;
+    padding: 1rem;
+    cursor: pointer;
+    
+
+}
+
+.homer{
+    display: flex;
+   justify-content: center;
+}
+
+.h1-text{
+    /* font-family:'impact'; */
+    font-family: 'Orbitron';
+    font-size: 10rem;
+    color: #230180;
+    font-weight: 800 !important;
+}

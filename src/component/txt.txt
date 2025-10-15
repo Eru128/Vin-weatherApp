@@ -1,0 +1,92 @@
+/   const [text, setText]=useState(0)
+//   const [time, setTime]=useState('xx:xxx:xx')
+//   const [inputNameHolder, setInputNameHolder]=useState('')
+//   const [inputName, setInputName]=useState('')
+//  const [interval, setIntervals]=useState(null)
+
+
+
+
+  // function increment(){
+  //   //setText(text+1)
+  //   setText((pre)=>pre +1)
+  // }
+
+  // function decrement(){
+  //   //setText(text-1)
+  //   setText((pre)=>pre >0 ?pre-1 :0)
+
+    
+  // }
+ 
+
+
+
+//   function startTime(){
+    
+//     if (interval) return;
+
+//     const id=setInterval(() => {
+//     const interv=new Date().toLocaleTimeString();
+
+//     setTime(interv)
+
+//       }, 1000);
+
+//       setIntervals(id)
+
+// }
+
+
+// function closeTime(){
+//   if(interval){
+//     clearInterval(interval);
+//     setIntervals(null)
+
+//   }
+//   setTime('xx:xxx:xx')
+
+  
+// }
+
+// function nameChange(e){
+//   const textContain=e.target.value
+//   console.log(textContain)
+//   setInputNameHolder(textContain)
+// }
+
+// const numb= 1800.89
+//  console.log(Math.floor((3*60)/3600))  //rounds off negative
+//  console.log(Math.floor(((30*60)% 3600)/60))  //rounds off negative
+
+
+{/* <h1>
+        Trial Arena
+      </h1>
+      
+      <div className='box-arena'>
+        <p className='Text'>{text}</p>
+      </div> 
+      
+
+        <div className='btnss'>
+          <button className='btn-add' onClick={increment}>+</button>
+          <button className='btn-minus' onClick={decrement}>-</button>
+        
+        </div> 
+
+
+        <h1 className='h1-text'>{time}</h1>
+         <div className='btnss'>
+            <button className='btn-add' onClick={startTime}>Start</button>
+            <button className='btn-minus' onClick={closeTime}>End</button>
+          </div>
+
+      <div className='box-arena'>
+        <p className='Text'>{inputName}</p>
+      </div> 
+          <div>
+            <input type='text' onChange={nameChange}></input>
+            <button onClick={()=>setInputName(inputNameHolder)}>Submit</button>
+          </div> */}
+

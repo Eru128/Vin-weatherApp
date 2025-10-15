@@ -16,7 +16,7 @@ const navigate= useNavigate()
     const [cityName, setCityName] = useState('')
     const [errorMessage, setErrorMessage] = useState('')
     const [dataLoading, setDataLoading]    = useState(false)
-    
+   // const [refersh, setRefresh] = useState(false)
 
 
     function goHome(){
@@ -31,6 +31,10 @@ const navigate= useNavigate()
         navigate('/calc')
     }
 
+    function goToTimer(){
+        navigate('/timer')
+    }
+
     //const img= 'https://openweathermap.org/img/wn/10d@2x.png'
 
     
@@ -40,7 +44,9 @@ const navigate= useNavigate()
         setCityName(input)
     }
 
-    
+    // function refreshBtn(){
+    //     setRefresh(true)
+    // }
     
     
     const apiKey= '0a60008fc7698760688ffc4c5a9312d7'
@@ -100,6 +106,8 @@ const hPaToMmHg = (hPa) => (hPa * 0.75006).toFixed(2)
                 <li><button className="link" onClick={goHome}>Home</button></li>
                 <li><button className="link" onClick={goToAbout}>About</button></li>
                 <li><button className="link" onClick={goToCalc}>Calculator</button></li>
+                <li><button className="link" onClick={goToTimer}>Timer</button></li>
+
             </ul>
         </nav>
     </div>
