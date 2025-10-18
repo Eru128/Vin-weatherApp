@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Vin-weatherApp/static/css/main.c8a3bdb8.css",
-    "main.js": "/Vin-weatherApp/static/js/main.1eff2904.js",
+    "main.css": "/Vin-weatherApp/static/css/main.84314003.css",
+    "main.js": "/Vin-weatherApp/static/js/main.2e50e838.js",
     "index.html": "/Vin-weatherApp/index.html",
-    "main.c8a3bdb8.css.map": "/Vin-weatherApp/static/css/main.c8a3bdb8.css.map",
-    "main.1eff2904.js.map": "/Vin-weatherApp/static/js/main.1eff2904.js.map"
+    "main.84314003.css.map": "/Vin-weatherApp/static/css/main.84314003.css.map",
+    "main.2e50e838.js.map": "/Vin-weatherApp/static/js/main.2e50e838.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8a3bdb8.css",
-    "static/js/main.1eff2904.js"
+    "static/css/main.84314003.css",
+    "static/js/main.2e50e838.js"
   ]
 }
